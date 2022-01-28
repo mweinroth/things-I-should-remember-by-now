@@ -8,6 +8,7 @@ _**Bold indicates parts of command that should be amended for specific use**_
 | Command purpose | Description | Source |
 | --- | --- | --- |
 | count number of files with specific extension in directory | find **/path/to/directory** -mindepth 1 -type f -name "**.csv**" -printf x \| wc -c | [source](https://askubuntu.com/questions/454564/count-total-number-of-files-in-particular-directory-with-specific-extension)|
+| split larger file evenly | split --number=l/4 **input** | -- |
 
 ## Raw files 
 | Command purpose | Description | Source |
